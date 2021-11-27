@@ -8,7 +8,7 @@ The goal is for you to
   <li>Create a pull request to obtain access to the program.</li>
   <li>Modify the program in the least possible way to implement your functionality.
     <ol>
-      <li>successfully add a function to the Collab-FL21.cpp program</li>
+      <li>successfully add a function to the CollabFL21.cpp program</li>
       <li>add your function prototype</li>
       <li>and add the call to your function so that the program works successfully.</li>
     </ol>
