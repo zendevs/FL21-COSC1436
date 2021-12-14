@@ -20,6 +20,7 @@ string semester = "Fall 2021";
 // ***************************************************************
 
 void showMenu();
+void menu7Coons();
 void menu18Smiley(int);
 
 // ***************************************************************
@@ -66,6 +67,7 @@ int main()
             case 6:                 // Chairez - call to function goes here
                 break;
             case 7:                 // Coons - call to function goes here
+                menu7Coons();
                 break;
             case 8:                 // Cutshall - call to function goes here
 				break;
@@ -146,6 +148,78 @@ void showMenu()
 //                     where XX is your menu number and
 //                           YY is your last name with no spaces (camel case)           
 // *****************************************************************************************
+
+// *****************************************************************************************
+// MENU ID:          7
+// FUNCTION:         menu7Coons
+// DESCRIPTION:      prints ascii art of sonic the hedgehog
+// SOURCE:           ASCII artwork was found at the bottom of the page at the link below
+//                   https://www.asciiart.eu/video-games/sonic-the-hedgehog
+// *****************************************************************************************
+void menu7Coons()
+{
+    cout << endl
+         << endl
+         << "                             ...,?77??!~~~~!???77?<~.... "                 << endl
+         << "                        ..?7`                           `7!.. "            << endl
+         << "                    .,=`          ..~7^`   I                  ?1. "        << endl
+         << "       ........  ..^            ?`  ..?7!1 .               ...??7 "        << endl
+         << "      .        .7`        .,777.. .I.    . .!          .,7! "              << endl
+         << "      ..     .?         .^      .l   ?i. . .`       .,^ "                  << endl
+         << "       b    .!        .= .?7???7~.     .>r .      .= "                     << endl
+         << "       .,.?4         , .^         1        `     4... "                    << endl
+         << "        J   ^         ,            5       `         ?<. "                 << endl
+         << "       .%.7;         .`     .,     .;                   .=. "              << endl
+         << "       .+^ .,       .%      MML     F       .,             ?, "            << endl
+         << "        P   ,,      J      .MMN     F        6               4. "          << endl
+         << "        l    d,    ,       .MMM!   .t        ..               ,, "         << endl
+         << "        ,    JMa..`         MMM`   .         .!                .; "        << endl
+         << "         r   .M#            .M#   .%  .      .~                 ., "       << endl
+         << "       dMMMNJ..!                 .P7!  .>    .         .         ,, "      << endl
+         << "       .WMMMMMm  ?^..       ..,?! ..    ..   ,  Z7`        `?^..  ,, "     << endl
+         << "          ?THB3       ?77?!        .Yr  .   .!   ?,              ?^C "     << endl
+         << "            ?,                   .,^.` .%  .^      5. "                    << endl
+         << "              7,          .....?7     .^  ,`        ?. "                   << endl
+         << "                `<.                 .= .`'           1 "                   << endl
+         << "                ....dn... ... ...,7..J=!7,           ., "                  << endl
+         << "             ..=     G.,7  ..,o..  .?    J.           F "                  << endl
+         << "           .J.  .^ ,,,t  ,^        ?^.  .^  `?~.      F "                  << endl
+         << "          r %J. $    5r J             ,r.1      .=.  .% "                  << endl
+         << "          r .77=?4.    ``,     l ., 1  .. <.       4., "                   << endl
+         << "          .$..    .X..   .n..  ., J. r .`  J.       `' "                   << endl
+         << "        .?`  .5        `` ." << "%" << "  ." << "%" << " .' L.'    t "     << endl
+         << "        ,. ..1JL          .,   J .$.?`      . "                            << endl
+         << "                1.          .=` ` .J7??7<.. .; "                           << endl
+         << "                 JS..    ..^      L        7.: "                           << endl
+         << "                   `> ..       J.  4. "                                    << endl
+         << "                    +   r `t   r ~=..G. "                                  << endl
+         << "                    =   $  ,.  J "                                         << endl
+         << "                    2   r   t  .; "                                        << endl
+         << "              .,7!  r   t`7~..  j.. "                                      << endl
+         << "              j   7~L...$=.?7r   r ;?1. "                                  << endl
+         << "               8.      .=    j ..,^   .. "                                 << endl
+         << "              r        G              . "                                  << endl
+         << "            .,7,        j,           .>=. "                                << endl
+         << "         .J??,  `T....... %             .. "                               << endl
+         << "      ..^     <.  ~.    ,.             .D "                                << endl
+         << "    .?`        1   L     .7.........?Ti..l "                               << endl
+         << "   ,`           L  .    .%    .`!       `j, "                              << endl
+         << " .^             .  ..   .`   .^  .?7!?7+. 1 "                              << endl
+         << ".`              .  .`..`7.  .^  ,`      .i.; "                             << endl
+         << ".7<..........~<<3?7!`    4. r  `          G% "                             << endl
+         << "                          J.` .!           % "                             << endl
+         << "                            JiJ           .` "                             << endl
+         << "                              .1.         J "                              << endl
+         << "                                 ?1.     .' "                              << endl
+         << "                                     7<..%"                                << endl
+         << endl
+         << endl
+         << "                   ------------------ "                                    << endl
+         << "                   | GOTTA GO FAST! | "                                    << endl
+         << "                   ------------------ "                                    << endl
+         << endl
+         << endl;
+}
 
 // *****************************************************************************************
 // MENU ID:          18
